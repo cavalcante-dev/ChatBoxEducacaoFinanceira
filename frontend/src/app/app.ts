@@ -7,10 +7,11 @@ import { Navbar } from './_components/navbar/navbar';
 import { Topbar } from './_components/topbar/topbar';
 import { MainNavbar } from './_components/main-navbar/main-navbar';
 import { ChatWidget } from './_components/chat-widget/chat-widget';
+import { Dashboard } from "./pages/dashboard/dashboard";
 
 @Component({
   selector: 'app-root',
-  imports: [Login, Register, MainNavbar, ChatWidget, RouterOutlet],
+  imports: [Login, Register, MainNavbar, ChatWidget, RouterOutlet, Dashboard],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
